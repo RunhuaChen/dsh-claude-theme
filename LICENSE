@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 crh1022
+Copyright (c) 2026 RunhuaChen
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -25,7 +25,7 @@ SOFTWARE.
 Palette notice
 
 The colour palette (the values published in gen-theme-client.mjs and the
-tokens it produces) was tuned by crh1022 on top of the OpenAI Codex
+tokens it produces) was tuned by RunhuaChen on top of the OpenAI Codex
 "absolutely" theme and is released under the MIT licence above. Keep this
 attribution when you redistribute or derive from it.
 

@@ -1,0 +1,52 @@
+{
+  "name": "@crh1022/dsh-claude-theme",
+  "version": "0.1.0",
+  "description": "Claude 风格主题：暖纸质底色、赤陶强调色、Anthropic 字体与界面字号跟随。A Claude-flavoured theme for DeepSeek Harness.",
+  "license": "MIT",
+  "type": "module",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crh1022/dsh-claude-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/crh1022/dsh-claude-theme/issues"
+  },
+  "homepage": "https://github.com/crh1022/dsh-claude-theme#readme",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "README.md",
+    "README.en.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-theme"
+      ]
+    }
+  },
+  "engines": {
+    "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "theme",
+    "claude",
+    "cordis"
+  ]
+}

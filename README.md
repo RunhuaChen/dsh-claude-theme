@@ -2,7 +2,7 @@
 
 给 DeepSeek Harness（DSH）Web 界面用的 Claude 风格主题：暖纸质底色、赤陶强调色、Anthropic 字体，外加让整个界面跟着字号设置一起缩放。
 
-配色取自一份 Codex 主题文件（`surface #fcfcfb`、`ink #181817`、`accent #da7756`），深浅两套都做了，跟随 DSH 的「浅色 / 深色 / 跟随系统」设置。
+配色由作者在 OpenAI Codex 的 `absolutely` 主题基础上自行调校而来：保留它纸白 `#fcfcfb`、近黑 `#181817`、赤陶 `#da7756` 的基调，重新推导了整套中性色阶和强调色阶，并补齐到 DSH 需要的 82 个颜色变量。深浅两套都做了，跟随 DSH 的「浅色 / 深色 / 跟随系统」设置。
 
 ## 效果
 
@@ -84,18 +84,18 @@ git clone https://github.com/crh1022/dsh-claude-theme.git
 
 ## 开发
 
-`client.js` 由 `tools/gen-theme-client.mjs` 生成，色板在脚本里用 OKLCH 推导（中性色相 85°，强调色相 39°），改颜色请改脚本后重新生成，不要手改 `client.js`。
+`client.js` 由仓库的生成脚本生成，色板在脚本里用 OKLCH 推导（中性色相 85°，强调色相 39°），改颜色请改脚本后重新生成，不要手改 `client.js`。
 
 ```bash
-node tools/gen-theme-client.mjs      # 重新生成 client.js
-node tools/check-theme-client.mjs    # 桩测：模块注册、token 形状、样式注入
-node tools/check-chrome-scale.mjs    # 桩测：界面字号改写规则
+node gen-theme-client.mjs      # 重新生成 client.js
+node check-theme-client.mjs    # 桩测：模块注册、token 形状、样式注入
+node check-chrome-scale.mjs    # 桩测：界面字号改写规则
 ```
 
 ## 许可
 
-代码以 MIT 许可发布，见 `LICENSE`。Anthropic 字体不在此许可范围内，插件也不包含任何字体文件。
+代码以 MIT 许可发布，见 `LICENSE`。配色方案由本项目作者调校，按同一许可开放，转载或二次分发时请保留出处。Anthropic 字体不在此许可范围内，插件也不包含任何字体文件。
 
 ## 致谢
 
-主题配色来自一份个人使用的 Codex 主题文件；字体属于 Anthropic，界面结构属于 DeepSeek Harness。
+配色由本项目的作者在 OpenAI Codex 的 `absolutely` 主题基础上自行优化，并适配为 DSH 的颜色体系。字体属于 Anthropic，界面结构属于 DeepSeek Harness。

@@ -22,6 +22,13 @@ SOFTWARE.
 
 ---
 
+Palette notice
+
+The colour palette (the values published in gen-theme-client.mjs and the
+tokens it produces) was tuned by crh1022 on top of the OpenAI Codex
+"absolutely" theme and is released under the MIT licence above. Keep this
+attribution when you redistribute or derive from it.
+
 Font notice
 
 This repository contains no font files. The Anthropic typefaces referenced by

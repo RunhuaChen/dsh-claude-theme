@@ -1,7 +1,7 @@
 {
   "name": "@RunhuaChen/dsh-claude-theme",
   "version": "0.1.0",
-  "description": "Claude 风格主题：暖纸质底色、赤陶强调色、Anthropic 字体与界面字号跟随。A Claude-flavoured theme for DeepSeek Harness.",
+  "description": "Claude 风格主题：暖纸质底色、赤陶强调色、Anthropic 字体，界面字号跟随正文设置缩放。A Claude-flavoured theme for DeepSeek Harness.",
   "license": "MIT",
   "type": "module",
   "private": true,

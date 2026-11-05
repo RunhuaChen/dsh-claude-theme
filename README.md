@@ -41,7 +41,7 @@ GitHub 上有几个第三方仓库提供这些字体的 TTF 和 woff2 导出，�
 克隆仓库，然后把仓库根目录交给 DSH 的插件安装器：
 
 ```bash
-git clone https://github.com/crh1022/dsh-claude-theme.git
+git clone https://github.com/RunhuaChen/dsh-claude-theme.git
 ```
 
 在 DSH 的会话里让 Agent 安装这个本地包目录：
@@ -59,7 +59,7 @@ git clone https://github.com/crh1022/dsh-claude-theme.git
 卸载：
 
 ```json
-{ "action": "remove_bundle", "target": "@crh1022/dsh-claude-theme" }
+{ "action": "remove_bundle", "target": "@RunhuaChen/dsh-claude-theme" }
 ```
 
 ## 工作原理

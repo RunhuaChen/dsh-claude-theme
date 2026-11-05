@@ -38,7 +38,7 @@ const window = {
 new Function('window', 'document', source)(window, document)
 
 if (!loaded) throw new Error('模块没有通过 __ModuleLoader__.load 注册')
-if (loaded.id !== '@crh1022/dsh-claude-theme') throw new Error(`模块 id 不符: ${loaded.id}`)
+if (loaded.id !== '@RunhuaChen/dsh-claude-theme') throw new Error(`模块 id 不符: ${loaded.id}`)
 
 const required = []
 const plugin = loaded.factory((id) => {
@@ -72,7 +72,7 @@ const ctx = {
 plugin.apply(ctx)
 
 if (!registered) throw new Error('没有调用 overrideTokens')
-if (registered.source !== '@crh1022/dsh-claude-theme') throw new Error('overrideTokens source 不符')
+if (registered.source !== '@RunhuaChen/dsh-claude-theme') throw new Error('overrideTokens source 不符')
 
 const problems = []
 const pattern = /^(#[0-9a-f]{6}|rgba\([0-9., ]+\))$/i

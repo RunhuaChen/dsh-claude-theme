@@ -39,7 +39,7 @@ No extra CJK font is required: Chinese text falls back to the system face.
 Requires a DSH runtime `>=0.2.0-rc.1 <0.3.0-0` and the web surface.
 
 ```bash
-git clone https://github.com/crh1022/dsh-claude-theme.git
+git clone https://github.com/RunhuaChen/dsh-claude-theme.git
 ```
 
 Hand the repository directory to the DSH plugin installer:
@@ -50,7 +50,7 @@ Hand the repository directory to the DSH plugin installer:
 
 Or simply ask the agent in a DSH session to install that directory as a bundle. Reload the page afterwards. If nothing changes after a reload, restart the DSH app once so the client module list is collected again.
 
-Uninstall with `{ "action": "remove_bundle", "target": "@crh1022/dsh-claude-theme" }`.
+Uninstall with `{ "action": "remove_bundle", "target": "@RunhuaChen/dsh-claude-theme" }`.
 
 ## How it works
 

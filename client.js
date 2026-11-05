@@ -3,9 +3,9 @@
  * 界面各处的固定 px 字号在页面加载时被改写成正文字号的等比缩放，跟随字号设置一起变大。
  * 由 tools/gen-theme-client.mjs 生成，改颜色请改脚本后重新生成。 */
 window.__ModuleLoader__.load({
-  id: '@crh1022/dsh-claude-theme',
+  id: '@RunhuaChen/dsh-claude-theme',
   factory(require) {
-    const THEME_ID = '@crh1022/dsh-claude-theme'
+    const THEME_ID = '@RunhuaChen/dsh-claude-theme'
 
     const TOKENS = {
     '--dsw-static-neutral-bluish-00': { light: '#fcfcfb', dark: '#fcfcfb' },

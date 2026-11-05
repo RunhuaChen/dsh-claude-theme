@@ -1,5 +1,5 @@
 {
-  "name": "@crh1022/dsh-claude-theme",
+  "name": "@RunhuaChen/dsh-claude-theme",
   "version": "0.1.0",
   "description": "Claude 风格主题：暖纸质底色、赤陶强调色、Anthropic 字体与界面字号跟随。A Claude-flavoured theme for DeepSeek Harness.",
   "license": "MIT",
@@ -7,12 +7,12 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/crh1022/dsh-claude-theme.git"
+    "url": "git+https://github.com/RunhuaChen/dsh-claude-theme.git"
   },
   "bugs": {
-    "url": "https://github.com/crh1022/dsh-claude-theme/issues"
+    "url": "https://github.com/RunhuaChen/dsh-claude-theme/issues"
   },
-  "homepage": "https://github.com/crh1022/dsh-claude-theme#readme",
+  "homepage": "https://github.com/RunhuaChen/dsh-claude-theme#readme",
   "exports": {
     ".": "./index.js",
     "./client": "./client.js",
